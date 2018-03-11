@@ -196,7 +196,7 @@ header.masthead .overlay {
   height: 100%;
   width: 100%;
   background-color: #212529;
-  opacity: 0.25;
+  opacity: 0.45;
 }
 
 header.masthead .page-heading,
@@ -438,5 +438,11 @@ footer .copyright {
   margin-top: 25px;
   margin-bottom: 25px;
   padding: 25px;
+}
+
+#header {
+  background-image: url("../img/Chicago_Skyline-min.jpg");
+  background-size: cover;
+  background-position: top center;
 }
 
