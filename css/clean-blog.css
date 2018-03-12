@@ -427,7 +427,7 @@ footer .copyright {
 }
 
 .section {
-  padding: 120px;
+  padding: 20px;
 }
 
 .btn {
@@ -444,5 +444,13 @@ footer .copyright {
   background-image: url("../img/Chicago_Skyline-min.jpg");
   background-size: cover;
   background-position: top center;
+}
+
+.section-text {
+  padding: 50px;
+}
+
+.page-text {
+  font-size: 16px;
 }
 
