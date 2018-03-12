@@ -199,6 +199,16 @@ header.masthead .overlay {
   opacity: 0.45;
 }
 
+header.masthead .team-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.85;
+}
+
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
@@ -442,6 +452,12 @@ footer .copyright {
 
 #header {
   background-image: url("../img/Chicago_Skyline-min.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+#team-header {
+  background-image: url("../img/team.jpeg");
   background-size: cover;
   background-position: top center;
 }
